@@ -1,23 +1,26 @@
 const stages = [
   {
-    tag: "Design",
-    body: "Shape strategy with clear priorities and measurable outcomes.",
-    bullets: ["Strategic planning", "Decision-ready direction"],
+    tag: "Banking Foundations",
+    body: "Build strong expertise in modern banking systems and compliance.",
+    bullets: [" Financial operations & compliance", "Customer relationship management"],
+  },
+
+  
+
+  {
+    tag: "Executive Leadership",
+    body: "Transitioned in 2024 to guide group-wide strategies and operations.",
+    bullets: ["General Management at Qyam Group", "Strategic planning & direction"],
   },
   {
-    tag: "Onboarding",
-    body: "Align teams, stakeholders, and execution from day one.",
-    bullets: ["Cross-functional alignment", "Ownership and follow-through"],
+    tag: "Operational Excellence",
+    body: "Oversee business development to optimize overall company performance.",
+    bullets: ["Optimizing performance", "Business development"],
   },
   {
-    tag: "Delivery",
-    body: "Deliver results through disciplined operations and coordination.",
-    bullets: ["Operational excellence", "Change management"],
-  },
-  {
-    tag: "Deployment",
-    body: "Sustain performance with strong handoffs and accountability.",
-    bullets: ["High-performing teams", "Clean handoffs & governance"],
+    tag: "Measurable Results",
+    body: "Focus on driving sustainable growth through dedicated teamwork.",
+    bullets: ["High-performing teams", "Sustainable growth & results"],
   },
 ] as const;
 
@@ -37,7 +40,7 @@ export function TrustedProcessSection() {
         <div className="col-start-1 row-start-1 z-10 flex flex-col items-center justify-center px-4 py-16 text-center sm:px-6 sm:py-20 lg:justify-start lg:pt-72 lg:pb-28">
       <div className="mx-auto flex w-full max-w-[min(104rem,calc(100vw-2rem))] flex-col items-center text-center">
         <h2 className="text-4xl font-medium leading-tight text-white sm:text-5xl lg:text-6xl">
-          Executive leadership built on trust
+        Dynamic executive leadership:
         </h2>
         <p
           className="-mt-1 inline-block overflow-visible pb-[0.18em] text-4xl font-medium leading-snug sm:text-5xl lg:text-6xl sm:-mt-1.5"
@@ -48,11 +51,9 @@ export function TrustedProcessSection() {
             backgroundClip: "text",
           }}
         >
-          from banking discipline to business growth.
-        </p>
+From banking discipline to sustainable business growth.        </p>
         <p className="mx-auto mt-5 w-full max-w-none text-base leading-relaxed text-white/60 sm:text-lg">
-          Eight+ years across banking, financial services, and corporate management—now leading operations, strategy, and business development at Qyam Group.
-        </p>
+        Over eight years of experience across banking and corporate management—starting at NBI and FIB, to currently serving as General Manager at Qyam Group overseeing operations, strategy, and business development.        </p>
 
         <div className="mx-auto mt-10 grid w-full grid-cols-1 gap-5 sm:mt-14 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           {stages.map(({ tag, body, bullets }) => (

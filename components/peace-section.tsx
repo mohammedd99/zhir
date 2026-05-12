@@ -17,7 +17,7 @@ const solutions = [
 export function PeaceSection() {
   return (
     <section
-      className="w-full px-6 py-16 sm:py-20 lg:py-28"
+      className="w-full px-6 py-16 sm:py-20 lg:py-28 lg:-mt-122"
       style={{ backgroundColor: "#FEFEFE" }}
     >
       <div className="mx-auto max-w-7xl">
